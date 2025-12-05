@@ -1,0 +1,43 @@
+body {
+    font-family: "Vazirmatn", sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6ea6, #ff88b9);
+    padding: 40px 20px;
+    color: white;
+    font-size: 26px;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+.card {
+    background: white;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #ff4f8b;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.9;
+}
